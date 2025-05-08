@@ -38,6 +38,7 @@ This is achieved through the following steps:
    * Save the corrected BaseCase and Scenario fields in new NetCDF files, ensuring that the file structure remains consistent with JRC reference files.
    * The files must include the corrected fields with appropriate metadata, dimensions, and variable names to facilitate direct comparison and integration within the FAIRMODE framework.
 
-## Authors  
-- [Your Full Name](https://github.com/yourusername) - University of Athens  
+## UoA Team
+- Prof. Bosiioli Elisavet
+- Petrides Constantinios
 
