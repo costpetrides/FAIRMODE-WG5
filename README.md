@@ -33,10 +33,6 @@ This is achieved through the following steps:
 
    * Apply the interpolated bias to the BaseCase and then to the Scenario to produce the corrected fields.
 
-5. **Saving the Corrected Files:**
-
-   * Save the corrected BaseCase and Scenario fields in new NetCDF files, ensuring that the file structure remains consistent with JRC reference files.
-   * The files must include the corrected fields with appropriate metadata, dimensions, and variable names to facilitate direct comparison and integration within the FAIRMODE framework.
   
 About the FORUM
 --
