@@ -39,6 +39,6 @@ This is achieved through the following steps:
    * The files must include the corrected fields with appropriate metadata, dimensions, and variable names to facilitate direct comparison and integration within the FAIRMODE framework.
 
 ## UoA Team
-- Prof. Bosiioli Elisavet
+- Prof. Bossioli Elissavet 
 - Petrides Constantinios
 
