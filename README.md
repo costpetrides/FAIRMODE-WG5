@@ -21,9 +21,9 @@ This is achieved through the following steps:
 
    * Interpolate the bias from the grid cells to the entire grid using the following methodologies:
 
-     * **Inverse Distance Weighting (IDW) - Additive:** 
-     * **Inverse Distance Weighting (IDW) - Multiplicative:** 
-     * **Random Forest Regression with Spatial Features (RFSF):** 
+     * **Inverse Distance Weighting (IDW) - Additive** 
+     * **Inverse Distance Weighting (IDW) - Multiplicative** 
+     * **Random Forest Regression with Spatial Features (RFSF)** 
 
 4. **Correction of BaseCase and Scenario:**
 
