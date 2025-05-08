@@ -19,7 +19,11 @@ This is achieved through the following steps:
 
 3. **Bias Interpolation over the Grid:**
 
-   * Apply IDW, Kriging, or RFSF to interpolate the bias from the grid cells to the entire grid.
+   * Interpolate the bias from the grid cells to the entire grid using the following methodologies:
+
+     * **Inverse Distance Weighting (IDW) - Additive:** Apply the additive bias correction by interpolating the difference between observed and modeled values.
+     * **Inverse Distance Weighting (IDW) - Multiplicative:** Apply the multiplicative bias correction by interpolating the ratio between observed and modeled values.
+     * **Random Forest Regression with Spatial Features (RFSF):** Use spatial features to predict the bias at each grid location, incorporating both spatial structure and statistical relationships.
 
 4. **Correction of BaseCase and Scenario:**
 
@@ -27,7 +31,8 @@ This is achieved through the following steps:
 
 5. **Saving the Corrected Files:**
 
-   * Save the results in new NetCDF files, maintaining the structure compatible with the JRC reference files but containing the corrected values.
+   * Save the corrected BaseCase and Scenario fields in new NetCDF files, ensuring that the file structure remains consistent with JRC reference files.
+   * The files must include the corrected fields with appropriate metadata, dimensions, and variable names to facilitate direct comparison and integration within the FAIRMODE framework.
 
 
 About the FORUM
