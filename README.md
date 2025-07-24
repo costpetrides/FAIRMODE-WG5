@@ -40,6 +40,3 @@ The Forum for Air quality Modeling (FAIRMODE) was launched in 2007 as a joint re
 
 
 
-[![Commits.dev grade](https://commits.dev/api/badge/github/costpetrides/your-repo.svg)](https://commits.dev/github/costpetrides/your-repo)
-
-
