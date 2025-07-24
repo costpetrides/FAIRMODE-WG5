@@ -38,3 +38,7 @@ The Forum for Air quality Modeling (FAIRMODE) was launched in 2007 as a joint re
 - Prof. Bossioli Elissavet 
 - Petrides Constantinios
 
+
+
+[![Grade](https://commits.dev/api/badge/github/costpetrides/my-repo.svg)](https://commits.dev/github/costpetrides/my-repo)
+
